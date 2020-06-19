@@ -16,6 +16,7 @@ before_script:
   - printf "\n" | pecl install -f imagick-3.4.4
   - echo "extension = redis.so" >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
   - php -m
+  - pwd
 
 jobs:
   include:
