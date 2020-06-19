@@ -14,4 +14,13 @@ class SomeAppTest extends \Codeception\Test\Unit
     {
         $this->assertTrue(true);
     }
+
+    public function testIsPHPModulesLoaded()
+    {
+        $this->assertTrue(extension_loaded('intl'), 'intl not loaded');
+        $this->assertTrue(extension_loaded('imagick'), 'imagick not loaded');
+        $this->assertTrue(extension_loaded('mbstring'), 'mbstring not loaded');
+        $this->assertTrue(extension_loaded('PDO'), 'PDO not loaded');
+        $this->assertTrue(extension_loaded('redis'), 'redis not loaded');
+    }
 }
