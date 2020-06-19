@@ -1,5 +1,5 @@
 <?php
-namespace DmitriiKoziuk\travisStudy\AppOne\tests;
+namespace DmitriiKoziuk\travisStudy\AppTwo\tests;
 
 /**
  * Inherited Methods
