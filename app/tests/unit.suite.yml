@@ -1,0 +1,5 @@
+suite_namespace: DmitriiKoziuk\travisStudy\tests\unit
+actor: UnitTester
+modules:
+    enabled:
+        - Asserts

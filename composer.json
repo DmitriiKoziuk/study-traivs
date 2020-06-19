@@ -1,0 +1,13 @@
+{
+    "require-dev": {
+        "codeception/codeception": "^4.1",
+        "codeception/module-phpbrowser": "^1.0.0",
+        "codeception/module-asserts": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "DmitriiKoziuk\\travisStudy\\": "app/src",
+            "DmitriiKoziuk\\travisStudy\\tests\\": "app/tests"
+        }
+    }
+}
