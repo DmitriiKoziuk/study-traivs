@@ -1,10 +1,10 @@
 <?php
 
-namespace DmitriiKoziuk\travisStudy\tests\unit;
+namespace DmitriiKoziuk\travisStudy\AppOne\tests\unit;
 
 use DmitriiKoziuk\travisStudy\tests;
 
-class SomeTest extends \Codeception\Test\Unit
+class SomeAppTest extends \Codeception\Test\Unit
 {
     protected tests\UnitTester $tester;
 

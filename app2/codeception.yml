@@ -1,4 +1,4 @@
-namespace: DmitriiKoziuk\travisStudy\AppOne\tests
+namespace: DmitriiKoziuk\travisStudy\AppTwo\tests
 actor_suffix: Tester
 settings:
     shuffle: true

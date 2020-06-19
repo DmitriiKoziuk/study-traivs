@@ -6,8 +6,10 @@
     },
     "autoload": {
         "psr-4": {
-            "DmitriiKoziuk\\travisStudy\\": "app/src",
-            "DmitriiKoziuk\\travisStudy\\tests\\": "app/tests"
+            "DmitriiKoziuk\\travisStudy\\AppOne\\": "app/src",
+            "DmitriiKoziuk\\travisStudy\\AppOne\\tests\\": "app/tests",
+            "DmitriiKoziuk\\travisStudy\\AppTwo\\": "app2/src",
+            "DmitriiKoziuk\\travisStudy\\AppTwo\\tests\\": "app2/tests"
         }
     }
 }
