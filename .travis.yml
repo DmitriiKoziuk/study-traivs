@@ -1,0 +1,13 @@
+language: php
+php:
+    - 7.2
+    - 7.3
+    - 7.4
+
+before_install:
+    - sudo apt-get update > /dev/null
+
+before_script:
+    - cd ./app
+
+script: php ../vendor/bin/codecept run unit
