@@ -18,8 +18,8 @@ before_script:
   - php -m
   - pwd
   - echo $TRAVIS_BUILD_DIR/gg
-  - php -S localhost:8001 -t $TRAVIS_BUILD_DIR/app/src/ $TRAVIS_BUILD_DIR/app/src/index.php &
-  - php -S localhost:8002 -t $TRAVIS_BUILD_DIR/app2/src/ $TRAVIS_BUILD_DIR/app2/src/index.php &
+  - php -S localhost:8003 -t $TRAVIS_BUILD_DIR/app/src/ &
+  - php -S localhost:8004 -t $TRAVIS_BUILD_DIR/app2/src/ &
 
 jobs:
   include:
