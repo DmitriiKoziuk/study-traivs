@@ -23,10 +23,14 @@ before_script:
 
 jobs:
   include:
-  - name: AppOne test
+  - name: AppOne unit test
     script:
       - cd ./app
       - php ../vendor/bin/codecept run unit
+  - name: AppOne acceptance test
+    script:
+      - cd ./app
+      - php ../vendor/bin/codecept run acceptance
   - name: AppTwo test
     script:
       - cd ./app2
