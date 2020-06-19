@@ -25,3 +25,4 @@ jobs:
             - cd ./app2
         script:
             - php ../vendor/bin/codecept run unit
+
