@@ -2,7 +2,7 @@
 
 namespace DmitriiKoziuk\travisStudy\AppOne\tests\unit;
 
-use DmitriiKoziuk\travisStudy\tests;
+use DmitriiKoziuk\travisStudy\AppOne\tests;
 
 class SomeAppTest extends \Codeception\Test\Unit
 {

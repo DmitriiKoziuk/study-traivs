@@ -20,8 +20,7 @@ jobs:
       - cd ./app
       - php ../vendor/bin/codecept run unit
   - name: AppTwo test
-    before_script:
-      - cd ./app2
     script:
+      - cd ./app2
       - php ../vendor/bin/codecept run unit
 
