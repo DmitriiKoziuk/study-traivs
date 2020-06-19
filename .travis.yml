@@ -30,7 +30,7 @@ jobs:
   - name: AppOne acceptance test
     script:
       - cd ./app
-      - php ../vendor/bin/codecept run acceptance
+      - php ../vendor/bin/codecept run acceptance tests/acceptance/
   - name: AppTwo test
     script:
       - cd ./app2
