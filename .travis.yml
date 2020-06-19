@@ -12,8 +12,9 @@ before_install:
 
 before_script:
   - composer install
+  - php -m
   - printf "\n" | pecl install -f imagick-3.4.4
-  - pecl install redis-5.2.2
+  - php -m
 
 jobs:
   include:
