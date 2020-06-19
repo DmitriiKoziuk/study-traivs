@@ -12,6 +12,7 @@ before_install:
 
 before_script:
   - composer install
+  - pecl install -f imagick-3.4.4
 
 jobs:
   include:
