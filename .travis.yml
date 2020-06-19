@@ -8,6 +8,7 @@ before_install:
     - sudo apt-get update > /dev/null
 
 before_script:
+    - composer install
     - cd ./app
 
 script: php ../vendor/bin/codecept run unit
